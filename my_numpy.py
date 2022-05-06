@@ -33,3 +33,13 @@ print(f'El tiempo total es {(time.time()-start)*1000}')
 start=time.time()
 result=a1+a2
 print(f'El tiempo total es {(time.time()-start)*1000}')
+
+print()
+print()
+print()
+
+z=np.array([3,1,4])
+arr = np.array([[4,3],[2,5],[6,8]])
+print(z)
+print(arr)
+print(z.dot(arr)) #Multiplicacion matricial es distinta que z * arr hay que cumplir la regla de que #cols de "z" es igual al #rows de "arr", por eso esta operacion no funcionaria en viceversa
